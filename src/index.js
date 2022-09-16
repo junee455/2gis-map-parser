@@ -7,6 +7,9 @@ const mapString = {"orderedGeometries":[{"type":"Feature","properties":{"descrip
 // он такой один. В headers указана URL: 
 // https://keys.api.2gis.com/public/v1/keys/042b5b75-f847-4f2a-b695-b5f58adc9dfd/services/mapgl-js-api
 // ключ идет после keys
+
+// ну или вставте свой, если есть
+
 const map = new mapgl.Map("container", {
   key: "042b5b75-f847-4f2a-b695-b5f58adc9dfd",
   style: '76b19b98-4ba1-4f4d-b5ee-3ca1f41bf308',
